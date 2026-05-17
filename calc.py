@@ -10,6 +10,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="yandex-verification" content="53182f4779ad9893" />
     <title>Калькулятор кредитов — EFMStudio</title>
     <style>
         * {
@@ -28,7 +29,6 @@ HTML_TEMPLATE = """
             padding: 20px;
         }
 
-        /* Жёсткое стекло (glassmorphism) */
         .glass {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(12px);
@@ -135,7 +135,7 @@ HTML_TEMPLATE = """
             color: #00ffcc;
         }
 
-        /* Рекламное окно (квадрат) - НЕЗАКРЫВАЕМОЕ */
+        /* НЕЗАКРЫВАЕМОЕ рекламное окно (квадрат) */
         .ad-box {
             background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
             backdrop-filter: blur(16px);
@@ -147,7 +147,6 @@ HTML_TEMPLATE = """
             transition: all 0.3s ease;
             border: 2px solid rgba(255, 215, 0, 0.7);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-            position: relative;
         }
 
         .ad-box:hover {
